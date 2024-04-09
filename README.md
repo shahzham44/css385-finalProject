@@ -1,4 +1,4 @@
-Team Members: Hamzah, Jordy, Henrie/n
+Team Members: Hamzah, Jordy, Henrie <br />
 the
 what
 ඞ
