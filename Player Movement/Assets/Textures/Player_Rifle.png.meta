@@ -1,0 +1,627 @@
+fileFormatVersion: 2
+guid: 450e8107f284d3543adcd3fb292300c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8699244167138033496
+    second: Player_Idle 1_0
+  - first:
+      213: -7401197274246684975
+    second: Player_Idle 1_1
+  - first:
+      213: 668854649033944521
+    second: Player_Idle 1_2
+  - first:
+      213: 667515569412662483
+    second: Player_Idle 1_3
+  - first:
+      213: 234367100878646641
+    second: Player_Idle 1_4
+  - first:
+      213: -7891189287708023711
+    second: Player_Idle 1_5
+  - first:
+      213: -5506021537798061025
+    second: Player_Idle 1_6
+  - first:
+      213: -4300148195315336299
+    second: Player_Idle 1_7
+  - first:
+      213: 3097109506881946511
+    second: Player_Idle 1_8
+  - first:
+      213: 9055867347164702675
+    second: Player_Idle 1_9
+  - first:
+      213: 4943474870830050707
+    second: Player_Idle 1_10
+  - first:
+      213: -1892466708896849435
+    second: Player_Idle 1_11
+  - first:
+      213: -8640429190494028598
+    second: Player_Idle 1_12
+  - first:
+      213: -5276531007994543748
+    second: Player_Idle 1_13
+  - first:
+      213: 1429154730246777073
+    second: Player_Idle 1_14
+  - first:
+      213: -4963839819325821821
+    second: Player_Idle 1_15
+  - first:
+      213: -6449592498229465749
+    second: Player_Idle 1_16
+  - first:
+      213: -8267200250109991181
+    second: Player_Idle 1_17
+  - first:
+      213: 7831124972186345145
+    second: Player_Idle 1_18
+  - first:
+      213: 811325851889366377
+    second: Player_Idle 1_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player_Rifle_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 976
+        width: 150
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4227f3e7100f7204eb35f0c6ee567cdd
+      internalID: -890776755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Rifle_1
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 976
+        width: 150
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23519ae6bd4a50b4ca0e716d1afbd703
+      internalID: 168915292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Rifle_2
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 976
+        width: 150
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa34e4696958314eaddd2c75a0602bf
+      internalID: -84822375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Rifle_3
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 975
+        width: 150
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1366af3a65d744fa8e365aa4e6f10a
+      internalID: 314832004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Rifle_4
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 975
+        width: 150
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea51c327fa79974280b017253b7766b
+      internalID: 139481622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Rifle_5
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 661
+        width: 151
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de023380052772a4bb427ef9e28c000a
+      internalID: 465781000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Rifle_6
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 661
+        width: 151
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9a9a2815f97a447bbe2256a55f5145
+      internalID: -106248552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Rifle_7
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 661
+        width: 150
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9092edbccd1401e4186421ac3dd9b46d
+      internalID: -221478185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Rifle_8
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 660
+        width: 150
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5267c1cb1ee2edf44822b63b2c3cf5be
+      internalID: -433399562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Rifle_9
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 660
+        width: 150
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19bc342ac9f304344873034bfb482bf1
+      internalID: 1502747786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Rifle_10
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 347
+        width: 151
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81c206874d45c544af1787519511934
+      internalID: 1922142320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Rifle_11
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 347
+        width: 150
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af167984b2ee43544877896bd28f862d
+      internalID: -900683936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Rifle_12
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 347
+        width: 150
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b53fa1beb1f8ab478751be65d8f08c7
+      internalID: -519340014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Rifle_13
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 348
+        width: 150
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fd6a15ff3c46f40935facd356084ce
+      internalID: 175906231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Rifle_14
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 348
+        width: 151
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e0bd3205238e54db169e3af612619c
+      internalID: 355195406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Rifle_15
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 35
+        width: 151
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89522fad311db8499918c0d07e468c4
+      internalID: 1059702921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Rifle_16
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 36
+        width: 150
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4394bb644deea354d825767aa6d5c7ac
+      internalID: -1241609741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Rifle_17
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 36
+        width: 150
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535ad541fe94329458d77a994462f124
+      internalID: 995368739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Rifle_18
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 37
+        width: 150
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918263b4b17b76649bfa15a01a06685a
+      internalID: 1262319058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Rifle_19
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 37
+        width: 150
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdbc22f79b222b409611cb28a6a04d9
+      internalID: -746136909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 81a596800bd918745bb7f1eba6f73336
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Player_Rifle_0: -890776755
+      Player_Rifle_1: 168915292
+      Player_Rifle_10: 1922142320
+      Player_Rifle_11: -900683936
+      Player_Rifle_12: -519340014
+      Player_Rifle_13: 175906231
+      Player_Rifle_14: 355195406
+      Player_Rifle_15: 1059702921
+      Player_Rifle_16: -1241609741
+      Player_Rifle_17: 995368739
+      Player_Rifle_18: 1262319058
+      Player_Rifle_19: -746136909
+      Player_Rifle_2: -84822375
+      Player_Rifle_3: 314832004
+      Player_Rifle_4: 139481622
+      Player_Rifle_5: 465781000
+      Player_Rifle_6: -106248552
+      Player_Rifle_7: -221478185
+      Player_Rifle_8: -433399562
+      Player_Rifle_9: 1502747786
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
