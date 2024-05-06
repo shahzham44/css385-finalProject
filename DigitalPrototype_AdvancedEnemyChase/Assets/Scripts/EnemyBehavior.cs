@@ -1,4 +1,5 @@
 
+
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -16,7 +17,7 @@ public class EnemyBehavior : MonoBehaviour
 
     private GameObject player;
 
-    private bool detectPlayer;
+    private GameManager gameManager;
 
     private bool chasePlayer;
     // Start is called before the first frame update
@@ -24,7 +25,9 @@ public class EnemyBehavior : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player");
         chasePlayer = false;
+        gameManager = FindAnyObjectByType<GameManager>();
         StartCoroutine(isSomethingInVision());
+
     }
 
     //Referenced using: https://www.youtube.com/watch?v=OQ1dRX5NyM0
@@ -40,17 +43,20 @@ public class EnemyBehavior : MonoBehaviour
 
     private void SomethingInVision()
     {
-        Collider2D[] overallRange = Physics2D.OverlapCircleAll(transform.position, radius, LayerMask.GetMask("Player"));
-        if (overallRange.Length > 0)
+        if (!gameManager.isPlayerFound())
         {
-            Transform currentTarget = overallRange[0].transform;
-            Vector2 direction = (currentTarget.position - transform.position).normalized;
-            if (Vector2.Angle(transform.up, direction) < angle / 2)
+            Collider2D[] overallRange = Physics2D.OverlapCircleAll(transform.position, radius, LayerMask.GetMask("Player"));
+            if (overallRange.Length > 0)
             {
-                float distance = Vector2.Distance(transform.position, currentTarget.position);
-                if (!Physics2D.Raycast(transform.position, direction, distance, LayerMask.GetMask("Wall")))
+                Transform currentTarget = overallRange[0].transform;
+                Vector2 direction = (currentTarget.position - transform.position).normalized;
+                if (Vector2.Angle(transform.up, direction) < angle / 2)
                 {
-                    detectPlayer = true;
+                    float distance = Vector2.Distance(transform.position, currentTarget.position);
+                    if (!Physics2D.Raycast(transform.position, direction, distance, LayerMask.GetMask("Wall")))
+                    {
+                        gameManager.setPlayerFound(true);
+                    }
                 }
             }
         }
@@ -59,8 +65,8 @@ public class EnemyBehavior : MonoBehaviour
     // Referenced: https://www.youtube.com/watch?v=xDg2pxqJHq4
     // Update is called once per frame
     void Update()
-    {
-        if (detectPlayer)
+    { 
+        if (gameManager.isPlayerFound())
         {
             Debug.Log("Chasing Player");
             RaycastHit2D lineOfSight = Physics2D.Raycast(transform.position, player.transform.position - transform.position, 40.0f);
@@ -69,10 +75,10 @@ public class EnemyBehavior : MonoBehaviour
                 if (lineOfSight.collider.CompareTag("Player"))
                 {
                     chasePlayer = true;
-                }   
+                }
             }
         }
-        
+
         if (chasePlayer)
         {
             transform.up = player.transform.position - transform.position;
