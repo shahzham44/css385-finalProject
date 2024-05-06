@@ -17,11 +17,13 @@ public class EnemyBehavior : MonoBehaviour
     private GameObject player;
 
     private bool detectPlayer;
-    
+
+    private bool chasePlayer;
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        chasePlayer = false;
         StartCoroutine(isSomethingInVision());
     }
 
@@ -50,19 +52,7 @@ public class EnemyBehavior : MonoBehaviour
                 {
                     detectPlayer = true;
                 }
-                else
-                {
-                    detectPlayer = false;
-                }
             }
-            else
-            {
-                detectPlayer = false;
-            }
-        }
-        else if (detectPlayer)
-        {
-            detectPlayer = false;
         }
     }
 
@@ -73,9 +63,21 @@ public class EnemyBehavior : MonoBehaviour
         if (detectPlayer)
         {
             Debug.Log("Chasing Player");
+            RaycastHit2D lineOfSight = Physics2D.Raycast(transform.position, player.transform.position - transform.position, 40.0f);
+            if (lineOfSight.collider != null)
+            {
+                if (lineOfSight.collider.CompareTag("Player"))
+                {
+                    chasePlayer = true;
+                }   
+            }
+        }
+        
+        if (chasePlayer)
+        {
             transform.up = player.transform.position - transform.position;
             transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.smoothDeltaTime);
-        }   
+        }
     }
 
     /*
@@ -97,11 +99,6 @@ public class EnemyBehavior : MonoBehaviour
                     Debug.Log("Player has went beyond the range");
                     Debug.DrawRay(transform.position, player.transform.position - transform.position, Color.red);
                 }
-            }
-            else
-            {
-                Debug.Log("Doesn't see player");
-                Debug.DrawRay(transform.position, player.transform.position - transform.position, Color.red);
             }
         }
     }
